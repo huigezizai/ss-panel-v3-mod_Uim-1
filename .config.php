@@ -2,17 +2,17 @@
 
 /**
 
-  搭建问题可联系QQ209224407打赏解决
+  搭建问题可联系QQ打赏解决
 
 */
 
 
 //基本设置-----------------------------------------------------------------------
-$System_Config['key'] = '209224407';			// !!! 瞎 jb 修改此key为随机字符串确保网站安全 !!!
+$System_Config['key'] = '209224dhubh';			// !!! 瞎 jb 修改此key为随机字符串确保网站安全 !!!
 $System_Config['debug'] =  'false';  //  正式环境请确保为 false
-$System_Config['appName'] = '我是站点名';             //站点名称
-$System_Config['baseUrl'] = 'http://url.com';            // 站点地址
-$System_Config['muKey'] = 'marisn';   //用于校验ss-go mu的请求，可以随意修改，但请保持前后端一致
+$System_Config['appName'] = 'ssr炒币';             //站点名称
+$System_Config['baseUrl'] = 'https://ssrcb.tk';            // 站点地址
+$System_Config['muKey'] = 'mupass';   //用于校验ss-go mu的请求，可以随意修改，但请保持前后端一致
 $System_Config['db_driver'] = 'mysql';		//数据库程序
 $System_Config['db_host'] = 'localhost'; //数据库地址
 $System_Config['db_database'] = 'sspanel';			//数据库名
@@ -49,7 +49,7 @@ $System_Config['auto_backup_passwd']='';	//备份的压缩密码
 
 
 //用户注册设置--------------------------------------------------------------------
-$System_Config['defaultTraffic'] = '1';      				//用户初始流量 单位GB
+$System_Config['defaultTraffic'] = '100';      				//用户初始流量 单位GB
 $System_Config['user_expire_in_default']='3650';        	//用户账户过期时间，在注册时设置。（天）
 $System_Config['user_class_default']='0';      				//用户注册等级，在注册时设置。
 $System_Config['user_class_expire_default']='24';      		//用户等级过期时间，在注册时设置。（小时）
@@ -147,12 +147,12 @@ $System_Config['enable_geetest_checkin']='false';       //启用签到验证码
 
 //支付系统设置--------------------------------------------------------------------
 #取值 codepay,doiampay,paymentwall,zfbjk,spay,f2fpay,yftpay,none,f2fpay_codepay
-$System_Config['payment_system']='none';
+$System_Config['payment_system']='codepay';
 
 #codepay码支付
 #wiki地址:https://goo.gl/dRwRDi  http://t.cn/RnsWjtB
-$System_Config['codepay_id']='';       //码支付ID
-$System_Config['codepay_key']='';      //码支付通信密钥
+$System_Config['codepay_id']='58413';       //码支付ID
+$System_Config['codepay_key']='4vl5MfJDVcxNQOtMTwDORPlPzfMztkdh';      //码支付通信密钥
 
 #doiampay,https://www.daimiyun.cn/register.php?aff=624
 $System_Config['doiampay']=[
